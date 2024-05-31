@@ -6,4 +6,4 @@ Documentação em desenvolvimento para o projeto de mestrado com foco em engenha
 
 Está sendo realizado a leitura de importantes artigos que explicam como _event races_ podem acontcer no desenvolvimento de aplicações com Node.js. Além disso, os artigos destacam algumas ferramentas de análise dinâmica capazes de identificar condições de corrida em determinadas situações. As ferramentas abordadas nos artigos foram: **NodeRT** e **NodeRacer**.
 
-Os artigos mencionados podem ser encontrados na pasta [Artigos importantes](https://github.com/caio-ireno/Desenvolvimento-Mestrado).
+Os artigos mencionados podem ser encontrados na pasta [Artigos importantes](https://github.com/caio-ireno/Desenvolvimento-Mestrado/tree/main/Artigos).
