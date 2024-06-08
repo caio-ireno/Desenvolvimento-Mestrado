@@ -1,0 +1,534 @@
+{
+    "runtime": 22.409857,
+    "entries": [
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "module.exports",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 43,
+            "args": "EMPTY"
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "constructor",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 4,
+            "args": "EMPTY"
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "constructor",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 4
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "module.exports",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 43
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10,
+            "args": "cb74fb8aa293b6b9abfe25887932f44ccfc8f82a8000e13c692adb37a5fedadab8aff3e33d4d1c3fabb95272cb6421ce41256321a81eb06c69fc069468bd6d79"
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19,
+            "args": "cb74fb8aa293b6b9abfe25887932f44ccfc8f82a8000e13c692adb37a5fedadab8aff3e33d4d1c3fabb95272cb6421ce41256321a81eb06c69fc069468bd6d79"
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10,
+            "args": "e7ca4b4db7af6146984693fbda6cf9c965e31408349349f8fa58779b4826b6ed94ba32894e78b3b3286305480a9ad353ef64293d61374afcb9c8522b5bc6c280"
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19,
+            "args": "e7ca4b4db7af6146984693fbda6cf9c965e31408349349f8fa58779b4826b6ed94ba32894e78b3b3286305480a9ad353ef64293d61374afcb9c8522b5bc6c280"
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10,
+            "args": "c4955276d1a221853012c7ecf0ca6428af2e87300838857f7f73f4b57bc53f6c2f889b9a6ef6fc70212bbdd22de948cbf14fe4166e61cd4053073e3baac7ee80"
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19,
+            "args": "c4955276d1a221853012c7ecf0ca6428af2e87300838857f7f73f4b57bc53f6c2f889b9a6ef6fc70212bbdd22de948cbf14fe4166e61cd4053073e3baac7ee80"
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10,
+            "args": "6a10f32cabc4a92c4c8801135fd3359f8ee335bd584543f147519620fbde97cb399590f87a835fb073b934a72143a60540b92bfe4bfa901fb6f6cb986e49a7e5"
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19,
+            "args": "6a10f32cabc4a92c4c8801135fd3359f8ee335bd584543f147519620fbde97cb399590f87a835fb073b934a72143a60540b92bfe4bfa901fb6f6cb986e49a7e5"
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "addRule",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 19
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "verify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 10
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "ex01",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 11,
+            "args": "EMPTY"
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 5,
+            "trigger": 1,
+            "type": "TickObject",
+            "current": 1
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 6,
+            "trigger": 1,
+            "type": "PROMISE",
+            "current": 1
+        },
+        {
+            "e": "call-entry",
+            "current": 1,
+            "trigger": 0,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 13,
+            "args": "86121f6604412a1c200eed9ac903fb343ad70862003a24064f0096ae46b287b7173309723cbe885256ccfd28b29cc3e50961d6ce852d67c22b28146b905c100b"
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 7,
+            "trigger": 1,
+            "type": "TickObject",
+            "current": 1
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 8,
+            "trigger": 1,
+            "type": "Immediate",
+            "current": 1
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 13
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 9,
+            "trigger": 6,
+            "type": "PROMISE",
+            "current": 1
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 10,
+            "trigger": 9,
+            "type": "PROMISE",
+            "current": 1
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 11,
+            "trigger": 1,
+            "type": "TickObject",
+            "current": 1
+        },
+        {
+            "e": "call-exit",
+            "current": 1,
+            "trigger": 0,
+            "function": "ex01",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 11
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 5,
+            "trigger": 1,
+            "current": 5
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 7,
+            "trigger": 1,
+            "current": 7
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 11,
+            "trigger": 1,
+            "current": 11
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 8,
+            "trigger": 1,
+            "current": 8
+        },
+        {
+            "e": "call-entry",
+            "current": 8,
+            "trigger": 1,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 16,
+            "args": "EMPTY"
+        },
+        {
+            "e": "call-entry",
+            "current": 8,
+            "trigger": 1,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26,
+            "args": "38ca62768c0ef651466f5f89209ca290465f5fe5a4603be001db31493a9e42ede846a12c6a9fa85f099923d83b232fe831de706f7877e414d5b7d1a36bacf944"
+        },
+        {
+            "e": "call-exit",
+            "current": 8,
+            "trigger": 1,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26
+        },
+        {
+            "e": "AsyncHook-promiseResolve",
+            "id": 6,
+            "trigger": 1,
+            "current": 8
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 12,
+            "trigger": 8,
+            "type": "TickObject",
+            "current": 8
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 13,
+            "trigger": 8,
+            "type": "TickObject",
+            "current": 8
+        },
+        {
+            "e": "call-exit",
+            "current": 8,
+            "trigger": 1,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 16
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 12,
+            "trigger": 8,
+            "current": 12
+        },
+        {
+            "e": "call-entry",
+            "current": 12,
+            "trigger": 8,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 19,
+            "args": "EMPTY"
+        },
+        {
+            "e": "call-entry",
+            "current": 12,
+            "trigger": 8,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26,
+            "args": "18f4b968477bf9457cf08dfa0bc4360a7e1f4c035a536e0f6dbbe51479bbbc65723ba6959e8d25a2184cdfbb7911b5657295d5aa73d486237c8f72ea41e3fd22"
+        },
+        {
+            "e": "call-exit",
+            "current": 12,
+            "trigger": 8,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26
+        },
+        {
+            "e": "call-exit",
+            "current": 12,
+            "trigger": 8,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 19
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 13,
+            "trigger": 8,
+            "current": 13
+        },
+        {
+            "e": "call-entry",
+            "current": 13,
+            "trigger": 8,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 22,
+            "args": "EMPTY"
+        },
+        {
+            "e": "call-entry",
+            "current": 13,
+            "trigger": 8,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26,
+            "args": "6fbc49a0e32ae08e329e2822bd3dec0ce765803254ca7785ead9688f64cb360633b497afeb2cc342034eff912e78f67997fd3ae9ac2ea9d7d8879e65190e9d29"
+        },
+        {
+            "e": "call-exit",
+            "current": 13,
+            "trigger": 8,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26
+        },
+        {
+            "e": "call-exit",
+            "current": 13,
+            "trigger": 8,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 22
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 9,
+            "trigger": 6,
+            "current": 9
+        },
+        {
+            "e": "call-entry",
+            "current": 9,
+            "trigger": 6,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 29,
+            "args": "8ee617bf9eab3639bfecf776ff966b5479ffc0d4eb9b5719f254835c20fe55e5f500bc2a2e7ea87973dde88eb972fe614e2d96900bcd51258f0145f8e942d6d0"
+        },
+        {
+            "e": "call-entry",
+            "current": 9,
+            "trigger": 6,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26,
+            "args": "b0b96226759522d5238eb3759f67c527eb484dd15ca97e15cb96986475fd56619ca863ae618ce2fa46a5188ac62f99983778a4c80f8c40d6cca87fc33d90ed44"
+        },
+        {
+            "e": "call-exit",
+            "current": 9,
+            "trigger": 6,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 14,
+            "trigger": 9,
+            "type": "TickObject",
+            "current": 9
+        },
+        {
+            "e": "call-exit",
+            "current": 9,
+            "trigger": 6,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 29
+        },
+        {
+            "e": "AsyncHook-promiseResolve",
+            "id": 9,
+            "trigger": 6,
+            "current": 9
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 10,
+            "trigger": 9,
+            "current": 10
+        },
+        {
+            "e": "call-entry",
+            "current": 10,
+            "trigger": 9,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 34,
+            "args": "9b57252dcdebc5d1668c1449aca1643f1a9b4942fe365f653ab45ba749d2766fcf52107637f714be71b46f5e15cdf8075a49eb9289d40dedd4b647edb50e4eea"
+        },
+        {
+            "e": "call-entry",
+            "current": 10,
+            "trigger": 9,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26,
+            "args": "6de52d577f918fbebb12a083f673285fedbd2a4d4026d90cdf0e5df8a4fd6f12aa6c0cbc46aec8510bf59d4cdae91b981f5dccdb80772de92ddf92c4d1dde749"
+        },
+        {
+            "e": "call-exit",
+            "current": 10,
+            "trigger": 9,
+            "function": "notify",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+            "line": 26
+        },
+        {
+            "e": "AsyncHook-init",
+            "id": 15,
+            "trigger": 10,
+            "type": "TickObject",
+            "current": 10
+        },
+        {
+            "e": "call-exit",
+            "current": 10,
+            "trigger": 9,
+            "function": "[Anonymous]",
+            "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+            "line": 34
+        },
+        {
+            "e": "AsyncHook-promiseResolve",
+            "id": 10,
+            "trigger": 9,
+            "current": 10
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 14,
+            "trigger": 9,
+            "current": 14
+        },
+        {
+            "e": "AsyncHook-before",
+            "id": 15,
+            "trigger": 10,
+            "current": 15
+        }
+    ]
+}

@@ -1,0 +1,839 @@
+{
+    "asyncObjects": {
+        "objects": [
+            {
+                "id": 1,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 1,
+                    "trigger": 0,
+                    "type": "main",
+                    "current": 0
+                },
+                "callback": {
+                    "name": "module.exports",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+                    "line": 43,
+                    "args": "EMPTY",
+                    "logindex": 0,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 2,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 5,
+                    "trigger": 1,
+                    "type": "TickObject",
+                    "current": 1,
+                    "logindex": 21
+                },
+                "beforeindex": 31
+            },
+            {
+                "id": 3,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 7,
+                    "trigger": 1,
+                    "type": "TickObject",
+                    "current": 1,
+                    "logindex": 24
+                },
+                "beforeindex": 32
+            },
+            {
+                "id": 4,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 8,
+                    "trigger": 1,
+                    "type": "Immediate",
+                    "current": 1,
+                    "logindex": 25
+                },
+                "beforeindex": 34,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 16,
+                    "args": "EMPTY",
+                    "logindex": 35,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 5,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 9,
+                    "trigger": 6,
+                    "type": "PROMISE",
+                    "current": 1,
+                    "logindex": 27
+                },
+                "beforeindex": 52,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 29,
+                    "args": "8ee617bf9eab3639bfecf776ff966b5479ffc0d4eb9b5719f254835c20fe55e5f500bc2a2e7ea87973dde88eb972fe614e2d96900bcd51258f0145f8e942d6d0",
+                    "logindex": 53,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 6,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 10,
+                    "trigger": 9,
+                    "type": "PROMISE",
+                    "current": 1,
+                    "logindex": 28
+                },
+                "beforeindex": 59,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 34,
+                    "args": "9b57252dcdebc5d1668c1449aca1643f1a9b4942fe365f653ab45ba749d2766fcf52107637f714be71b46f5e15cdf8075a49eb9289d40dedd4b647edb50e4eea",
+                    "logindex": 60,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 7,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 11,
+                    "trigger": 1,
+                    "type": "TickObject",
+                    "current": 1,
+                    "logindex": 29
+                },
+                "beforeindex": 33
+            },
+            {
+                "id": 8,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 12,
+                    "trigger": 8,
+                    "type": "TickObject",
+                    "current": 8,
+                    "logindex": 39
+                },
+                "beforeindex": 42,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 19,
+                    "args": "EMPTY",
+                    "logindex": 43,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 9,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 13,
+                    "trigger": 8,
+                    "type": "TickObject",
+                    "current": 8,
+                    "logindex": 40
+                },
+                "beforeindex": 47,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 22,
+                    "args": "EMPTY",
+                    "logindex": 48,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 10,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 14,
+                    "trigger": 9,
+                    "type": "TickObject",
+                    "current": 9,
+                    "logindex": 56
+                },
+                "beforeindex": 66
+            },
+            {
+                "id": 11,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 15,
+                    "trigger": 10,
+                    "type": "TickObject",
+                    "current": 10,
+                    "logindex": 63
+                },
+                "beforeindex": 67
+            },
+            {
+                "id": 12,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 6,
+                    "trigger": 1,
+                    "type": "PROMISE",
+                    "current": 1,
+                    "logindex": 22
+                },
+                "beforeindex": 38
+            }
+        ]
+    },
+    "relations": {
+        "hb": [
+            {
+                "a": 1,
+                "b": 2,
+                "type": "registration"
+            },
+            {
+                "a": 1,
+                "b": 3,
+                "type": "registration"
+            },
+            {
+                "a": 1,
+                "b": 4,
+                "type": "registration"
+            },
+            {
+                "a": 12,
+                "b": 5,
+                "type": "registration"
+            },
+            {
+                "a": 5,
+                "b": 6,
+                "type": "registration"
+            },
+            {
+                "a": 1,
+                "b": 7,
+                "type": "registration"
+            },
+            {
+                "a": 4,
+                "b": 8,
+                "type": "registration"
+            },
+            {
+                "a": 4,
+                "b": 9,
+                "type": "registration"
+            },
+            {
+                "a": 5,
+                "b": 10,
+                "type": "registration"
+            },
+            {
+                "a": 6,
+                "b": 11,
+                "type": "registration"
+            },
+            {
+                "a": 1,
+                "b": 12,
+                "type": "registration"
+            },
+            {
+                "a": 4,
+                "b": 12,
+                "type": "promise-resolve"
+            },
+            {
+                "a": 2,
+                "b": 3,
+                "type": "TickObject-l"
+            },
+            {
+                "a": 3,
+                "b": 7,
+                "type": "TickObject-l"
+            },
+            {
+                "a": 8,
+                "b": 9,
+                "type": "TickObject-l"
+            },
+            {
+                "a": 2,
+                "b": 4,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 3,
+                "b": 4,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 7,
+                "b": 4,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 8,
+                "b": 5,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 9,
+                "b": 5,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 10,
+                "b": 6,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 8,
+                "b": 12,
+                "type": "TickObject-difftype-g"
+            },
+            {
+                "a": 9,
+                "b": 12,
+                "type": "TickObject-difftype-g"
+            }
+        ],
+        "graph": {
+            "1": {
+                "1": {
+                    "distance": 0
+                },
+                "2": {
+                    "distance": 1,
+                    "predecessor": "1"
+                },
+                "3": {
+                    "distance": 1,
+                    "predecessor": "1"
+                },
+                "4": {
+                    "distance": 1,
+                    "predecessor": "1"
+                },
+                "5": {
+                    "distance": 2,
+                    "predecessor": "12"
+                },
+                "6": {
+                    "distance": 3,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": 1,
+                    "predecessor": "1"
+                },
+                "8": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "9": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "10": {
+                    "distance": 3,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 4,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 1,
+                    "predecessor": "1"
+                }
+            },
+            "2": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": 0
+                },
+                "3": {
+                    "distance": 1,
+                    "predecessor": "2"
+                },
+                "4": {
+                    "distance": 1,
+                    "predecessor": "2"
+                },
+                "5": {
+                    "distance": 3,
+                    "predecessor": "12"
+                },
+                "6": {
+                    "distance": 4,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": 2,
+                    "predecessor": "3"
+                },
+                "8": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "9": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "10": {
+                    "distance": 4,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 5,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 2,
+                    "predecessor": "4"
+                }
+            },
+            "3": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": 0
+                },
+                "4": {
+                    "distance": 1,
+                    "predecessor": "3"
+                },
+                "5": {
+                    "distance": 3,
+                    "predecessor": "12"
+                },
+                "6": {
+                    "distance": 4,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": 1,
+                    "predecessor": "3"
+                },
+                "8": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "9": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "10": {
+                    "distance": 4,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 5,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 2,
+                    "predecessor": "4"
+                }
+            },
+            "4": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": 0
+                },
+                "5": {
+                    "distance": 2,
+                    "predecessor": "12"
+                },
+                "6": {
+                    "distance": 3,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": 1,
+                    "predecessor": "4"
+                },
+                "9": {
+                    "distance": 1,
+                    "predecessor": "4"
+                },
+                "10": {
+                    "distance": 3,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 4,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 1,
+                    "predecessor": "4"
+                }
+            },
+            "5": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": 0
+                },
+                "6": {
+                    "distance": 1,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": null
+                },
+                "9": {
+                    "distance": null
+                },
+                "10": {
+                    "distance": 1,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 2,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": null
+                }
+            },
+            "6": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": null
+                },
+                "6": {
+                    "distance": 0
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": null
+                },
+                "9": {
+                    "distance": null
+                },
+                "10": {
+                    "distance": null
+                },
+                "11": {
+                    "distance": 1,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": null
+                }
+            },
+            "7": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": 1,
+                    "predecessor": "7"
+                },
+                "5": {
+                    "distance": 3,
+                    "predecessor": "12"
+                },
+                "6": {
+                    "distance": 4,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": 0
+                },
+                "8": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "9": {
+                    "distance": 2,
+                    "predecessor": "4"
+                },
+                "10": {
+                    "distance": 4,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 5,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 2,
+                    "predecessor": "4"
+                }
+            },
+            "8": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": 1,
+                    "predecessor": "8"
+                },
+                "6": {
+                    "distance": 2,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": 0
+                },
+                "9": {
+                    "distance": 1,
+                    "predecessor": "8"
+                },
+                "10": {
+                    "distance": 2,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 3,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 1,
+                    "predecessor": "8"
+                }
+            },
+            "9": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": 1,
+                    "predecessor": "9"
+                },
+                "6": {
+                    "distance": 2,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": null
+                },
+                "9": {
+                    "distance": 0
+                },
+                "10": {
+                    "distance": 2,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 3,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 1,
+                    "predecessor": "9"
+                }
+            },
+            "10": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": null
+                },
+                "6": {
+                    "distance": 1,
+                    "predecessor": "10"
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": null
+                },
+                "9": {
+                    "distance": null
+                },
+                "10": {
+                    "distance": 0
+                },
+                "11": {
+                    "distance": 2,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": null
+                }
+            },
+            "11": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": null
+                },
+                "6": {
+                    "distance": null
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": null
+                },
+                "9": {
+                    "distance": null
+                },
+                "10": {
+                    "distance": null
+                },
+                "11": {
+                    "distance": 0
+                },
+                "12": {
+                    "distance": null
+                }
+            },
+            "12": {
+                "1": {
+                    "distance": null
+                },
+                "2": {
+                    "distance": null
+                },
+                "3": {
+                    "distance": null
+                },
+                "4": {
+                    "distance": null
+                },
+                "5": {
+                    "distance": 1,
+                    "predecessor": "12"
+                },
+                "6": {
+                    "distance": 2,
+                    "predecessor": "5"
+                },
+                "7": {
+                    "distance": null
+                },
+                "8": {
+                    "distance": null
+                },
+                "9": {
+                    "distance": null
+                },
+                "10": {
+                    "distance": 2,
+                    "predecessor": "5"
+                },
+                "11": {
+                    "distance": 3,
+                    "predecessor": "6"
+                },
+                "12": {
+                    "distance": 0
+                }
+            }
+        }
+    }
+}

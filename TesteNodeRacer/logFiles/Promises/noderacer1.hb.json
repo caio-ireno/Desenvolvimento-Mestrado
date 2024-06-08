@@ -1,0 +1,153 @@
+{
+    "asyncObjects": {
+        "objects": [
+            {
+                "id": 1,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 1,
+                    "trigger": 0,
+                    "type": "main",
+                    "current": 0
+                },
+                "callback": {
+                    "name": "module.exports",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/happensbeforechecker.js",
+                    "line": 43,
+                    "args": "EMPTY",
+                    "logindex": 0,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 4,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 8,
+                    "trigger": 1,
+                    "type": "Immediate",
+                    "current": 1,
+                    "logindex": 25
+                },
+                "beforeindex": 34,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 16,
+                    "args": "EMPTY",
+                    "logindex": 35,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 5,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 9,
+                    "trigger": 6,
+                    "type": "PROMISE",
+                    "current": 1,
+                    "logindex": 27
+                },
+                "beforeindex": 52,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 29,
+                    "args": "8ee617bf9eab3639bfecf776ff966b5479ffc0d4eb9b5719f254835c20fe55e5f500bc2a2e7ea87973dde88eb972fe614e2d96900bcd51258f0145f8e942d6d0",
+                    "logindex": 53,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 6,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 10,
+                    "trigger": 9,
+                    "type": "PROMISE",
+                    "current": 1,
+                    "logindex": 28
+                },
+                "beforeindex": 59,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 34,
+                    "args": "9b57252dcdebc5d1668c1449aca1643f1a9b4942fe365f653ab45ba749d2766fcf52107637f714be71b46f5e15cdf8075a49eb9289d40dedd4b647edb50e4eea",
+                    "logindex": 60,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 8,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 12,
+                    "trigger": 8,
+                    "type": "TickObject",
+                    "current": 8,
+                    "logindex": 39
+                },
+                "beforeindex": 42,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 19,
+                    "args": "EMPTY",
+                    "logindex": 43,
+                    "instance": 1
+                }
+            },
+            {
+                "id": 9,
+                "entry": {
+                    "e": "AsyncHook-init",
+                    "id": 13,
+                    "trigger": 8,
+                    "type": "TickObject",
+                    "current": 8,
+                    "logindex": 40
+                },
+                "beforeindex": 47,
+                "callback": {
+                    "name": "[Anonymous]",
+                    "file": "/home/caio/Documentos/caio/noderacer/tests/micro-benchmark/promises/p1.js",
+                    "line": 22,
+                    "args": "EMPTY",
+                    "logindex": 48,
+                    "instance": 1
+                }
+            }
+        ]
+    },
+    "relations": {
+        "hb": [
+            {
+                "a": 1,
+                "b": 4,
+                "type": ""
+            },
+            {
+                "a": 4,
+                "b": 8,
+                "type": ""
+            },
+            {
+                "a": 5,
+                "b": 6,
+                "type": ""
+            },
+            {
+                "a": 9,
+                "b": 5,
+                "type": ""
+            },
+            {
+                "a": 8,
+                "b": 9,
+                "type": ""
+            }
+        ]
+    }
+}
