@@ -76,9 +76,11 @@ Finalmente, fazemos uma modificação ou extensão (monkey patch) nas funções 
 
 Todas as informações registradas são usadas na próxima fase para identificar os callbacks e as restrições de ordenação entre eles.
 
-### Rules
-
 ### Regras de Identificação de Precedência ("Happens-Before")
+
+Na segunda fase, o NODERACER identifica uma relação de acontecimento antes (happens-before) para os retornos de chamada observados na fase anterior. Cada retorno de chamada corresponde a uma iteração do ciclo de eventos. Intuitivamente, um retorno de chamada `ei` acontece antes de outro retorno de chamada `ej`, denotado como `ei` < `ej`, se `ej` depender causalmente de `ei`. Para modelar o Promise.race, também usamos uma variante de acontecimento antes, escrita como `{ei1, ..., eik}` << `ej`, o que significa que `ej` pode ser executado após pelo menos um dos `ei1, ..., eik` ter sido executado.
+
+Para identificar a relação de acontecimento antes, o NODERACER examina as entradas do arquivo de log e aplica nove regras. As Regras 1 a 4 são retiradas da literatura e revisitam o conhecimento existente sobre operações assíncronas no Node.js. Nós estendemos essas com as Regras 5 a 9 para trazer uma modelagem mais precisa de algumas operações do Node.js`
 
 #### Regra #1:
 
@@ -299,3 +301,16 @@ A Figura 4 ilustra a execução guiada para o exemplo do código 1. O callback a
    - `pall` é executado.
 
 Outras execuções terão diferentes decisões nos passos 2–5 e, como consequência, diferentes interleavings de callbacks serão explorados. Devido aos adiamentos inseridos pelo NODERACER, obtemos uma variedade de interleavings de callbacks que são improváveis de ocorrer em testes ordinários, mas podem aparecer em produção.
+
+## <a name="implementação"></a>1. implementação
+
+A implementação do NODERACER é feita como uma aplicação Node.js com um módulo principal de cerca de 1600 linhas de código. Ele possui uma interface de linha de comando na qual as três fases podem ser executadas separadamente. Como mencionado na Seção IV-A, a fase de observação usa a API Async Hooks e a biblioteca njsTrace. Uma versão modificada do njsTrace também é usada para a fase de execução guiada. O NODERACER inclui algumas funcionalidades para suportar o diagnóstico e a depuração de problemas de corrida. As facilidades de relatório incluem arquivos de rastreamento gerados para cada execução nas fases de observação e execução guiada, bem como imagens para gráficos de acontecimento antes (hb-graphs). Além disso, o NODERACER pode ser executado em um modo de diagnóstico no qual ele sistematicamente adia apenas um retorno de chamada por execução, usando o histórico de execuções anteriores para garantir que um retorno de chamada diferente seja adiado em cada execução. Sempre que um bug puder ser reproduzido nesse modo, destacamos esse único retorno de chamada no hb-graph como definitivamente relacionado ao bug.
+
+## <a name="Evaluation"></a>6. Evaluation
+
+Formulamos as seguintes questões de pesquisa:
+
+- RQ1: Como o NODERACER se compara ao fuzzer de última geração Node.fz?
+- RQ2: O uso de relações de acontecimento antes previne execuções inviáveis e evita atrasos desnecessários?
+- RQ3: O NODERACER pode ajudar a diagnosticar problemas abertos relacionados a corridas em aplicações Node.js?
+- RQ4: O NODERACER pode detectar bugs de corrida ou testes instáveis previamente desconhecidos usando suítes de testes existentes?
